@@ -1,85 +1,0 @@
-Script started on 2025-02-18 23:36:20+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
-[?2004h]0;ilja@ilja-VMware-Virtual-Platform: ~[01;32milja@ilja-VMware-Virtual-Platform[00m:[01;34m~[00m$ help
-[?2004lGNU bash, версия 5.2.21(1)-release (x86_64-pc-linux-gnu)
-Показанные ниже команды определены внутри командного процессора.  Чтобы вывести полный список, введите «help».
-Чтобы вывести справку по функции «name», введите «help name».
-Чтобы вывести справку по командному процессору, введите «info bash».
-Чтобы вывести справку по командам, которые отсутствуют в этом списке, введите «man -k» или «info».
-
-Звёздочка (*) рядом с названием команды означает, что эта команда отключена.
-
- задание [&]                             history [-c] [-d смещение] [n] или h>
- (( выражение ))                         if КОМАНДЫ; then КОМАНДЫ; [ elif КОМ>
- . файл [аргументы]                      jobs [-lnprs] [задание ...] или jobs>
- :                                       kill [-s назв_сигнала | -n номер_сиг>
- [ аргумент... ]                         let аргумент [аргумент ...]
- [[ выражение ]]                         local [параметр] имя[=значение] ...
- alias [-p] [имя[=значение] ... ]        logout [n]
- bg [задание ...]                        mapfile [-d разделитель] [-n число] >
- bind [-lpvsPSVX] [-m раскладка] [-f ф>  popd [-n] [+N | -N]
- break [n]                               printf [-v переменная] формат [аргум>
- builtin [встр_команда [аргумент ...]>   pushd [-n] [+N | -N | каталог]
- caller [выражение]                      pwd [-LP]
- case СЛОВО in [ШАБЛОН [| ШАБЛОН]...) >  read [-ers] [-a массив] [-d разделит>
- cd [-L|[-P [-e]] [-@]] [каталог]        readarray [-d разделитель] [-n число>
- command [-pVv] команда [аргумент ...>   readonly [-aAf] [имя[=значение] ...]>
- compgen [-abcdefgjksuv] [-o параметр]>  return [n]
- complete [-abcdefgjksuv] [-pr] [-DEI]>  select ИМЯ [in СЛОВА ... ;] do КОМАН>
- compopt [-o|+o параметр] [-DEI] [имя >  set [-abefhkmnptuvxBCEHPT] [-o optio>
- continue [n]                            shift [n]
- coproc [ИМЯ] команда [перенаправления>  shopt [-pqsu] [-o] [параметр ...]
- declare [-aAfFgiIlnrtux] [name[=value>  source файл [аргументы]
- dirs [-clpv] [+N] [-N]                  suspend [-f]
- disown [-h] [-ar] [задание ... | pid >  test [выражение]
- echo [-neE] [аргумент ...]              time [-p] конвейер
- enable [-a] [-dnps] [-f файл] [имя ..>  times
- eval [аргумент ...]                     trap [-lp] [[аргумент] сигнал ...]
- exec [-cl] [-a имя] [команда [аргумен>  true
- exit [n]                                type [-afptP] имя [имя ...]
- export [-fn] [имя[=значение ...] или >  typeset [-aAfFgiIlnrtux] name[=value>
- false                                   ulimit [-SHabcdefiklmnpqrstuvxPRT] [>
- fc [-e редактор] [-lnr] [первая] [пос>  umask [-p] [-S] [режим]
- fg [задание]                            unalias [-a] имя [имя ...]
- for ИМЯ [in СЛОВА... ;] do КОМАНДЫ; d>  unset [-f] [-v] [-n] [имя ...]
- for (( выраж1; выраж2; выраж3 )); do >  until COMMANDS; do COMMANDS-2; done
- function ИМЯ { КОМАНДЫ ; } или ИМЯ ()>  переменные — имена и значения некото>
- getopts строка_параметров имя [аргуме>  wait [-fn] [-p переменная] [идентифи>
- hash [-lr] [-p путь] [-dt] [имя ...]    while COMMANDS; do COMMANDS-2; done
- help [-dms] [шаблон ...]                { КОМАНДЫ ; }
-[?2004h]0;ilja@ilja-VMware-Virtual-Platform: ~[01;32milja@ilja-VMware-Virtual-Platform[00m:[01;34m~[00m$ ls -l
-[?2004lитого 40
-drwx------ 4 ilja ilja 4096 фев 18 22:59  [0m[01;34msnap[0m
--rw-rw-r-- 1 ilja ilja 4096 фев 18 23:36  task5zharov
--rw-rw-r-- 1 ilja ilja    0 фев 18 23:36  timelog5zharov
-drwxr-xr-x 2 ilja ilja 4096 фев 16 00:38  [01;34mВидео[0m
-drwxr-xr-x 2 ilja ilja 4096 фев 16 00:38  [01;34mДокументы[0m
-drwxr-xr-x 2 ilja ilja 4096 фев 16 00:38  [01;34mЗагрузки[0m
-drwxr-xr-x 2 ilja ilja 4096 фев 16 00:38  [01;34mИзображения[0m
-drwxr-xr-x 2 ilja ilja 4096 фев 16 00:38  [01;34mМузыка[0m
-drwxr-xr-x 2 ilja ilja 4096 фев 16 00:38  [01;34mОбщедоступные[0m
-drwxr-xr-x 3 ilja ilja 4096 фев 16 00:39 [01;34m'Рабочий стол'[0m
-drwxr-xr-x 2 ilja ilja 4096 фев 16 00:38  [01;34mШаблоны[0m
-[?2004h]0;ilja@ilja-VMware-Virtual-Platform: ~[01;32milja@ilja-VMware-Virtual-Platform[00m:[01;34m~[00m$ cd /tmp
-[?2004l[?2004h]0;ilja@ilja-VMware-Virtual-Platform: /tmp[01;32milja@ilja-VMware-Virtual-Platform[00m:[01;34m/tmp[00m$ pwd
-[?2004l/tmp
-[?2004h]0;ilja@ilja-VMware-Virtual-Platform: /tmp[01;32milja@ilja-VMware-Virtual-Platform[00m:[01;34m/tmp[00m$ mkdir myfolder
-[?2004l[?2004h]0;ilja@ilja-VMware-Virtual-Platform: /tmp[01;32milja@ilja-VMware-Virtual-Platform[00m:[01;34m/tmp[00m$ rmdir mu[Kyfolder
-[?2004l[?2004h]0;ilja@ilja-VMware-Virtual-Platform: /tmp[01;32milja@ilja-VMware-Virtual-Platform[00m:[01;34m/tmp[00m$ cp /etc/ps[Kasswd/my[K[K [K[K my [Kfile.txt
-[?2004l[?2004h]0;ilja@ilja-VMware-Virtual-Platform: /tmp[01;32milja@ilja-VMware-Virtual-Platform[00m:[01;34m/tmp[00m$ mw[Kv myfile.txt newfile.txt
-[?2004l[?2004h]0;ilja@ilja-VMware-Virtual-Platform: /tmp[01;32milja@ilja-VMware-Virtual-Platform[00m:[01;34m/tmp[00m$ rm newfile.txt
-[?2004l[?2004h]0;ilja@ilja-VMware-Virtual-Platform: /tmp[01;32milja@ilja-VMware-Virtual-Platform[00m:[01;34m/tmp[00m$ history
-[?2004l    1  10
-    2  help
-    3  ls -l
-    4  cd /tmp
-    5  pwd
-    6  mkdir myfolder
-    7  rmdir myfolder
-    8  cp /etc/passwd myfile.txt
-    9  mv myfile.txt newfile.txt
-   10  rm newfile.txt
-   11  history
-[?2004h]0;ilja@ilja-VMware-Virtual-Platform: /tmp[01;32milja@ilja-VMware-Virtual-Platform[00m:[01;34m/tmp[00m$ exit
-[?2004lexit
-
-Script done on 2025-02-18 23:39:27+03:00 [COMMAND_EXIT_CODE="0"]
